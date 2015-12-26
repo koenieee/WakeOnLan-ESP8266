@@ -15,6 +15,9 @@ WakeOnLan::sendWOL(computer_ip, UDP, mac, sizeof mac);
 
 ```
 
+Or just look into the file: examples/WakeOnLan-ESP8266/WakeOnLan-ESP8266.ino 
+To view a full working example.
+
 # Installation
 
 Copy the library into the folder: 

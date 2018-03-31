@@ -6,7 +6,7 @@ Very small and simple library to use the ESP8266 for sending magic packets to an
 Use the library with the (only) function like this:
 
 ```c
-byte mac[] = { 0xFR, 0xBB, 0x34, 0xE5, 0x29, 0xFC };
+byte mac[] = { 0xFE, 0xBB, 0x34, 0xE5, 0x29, 0xFC };
 
 IPAddress computer_ip(192, 168, 178, 26); 
 

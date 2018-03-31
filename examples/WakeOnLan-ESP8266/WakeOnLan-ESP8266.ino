@@ -16,7 +16,7 @@ IPAddress computer_ip(192, 168, 178, 26);
 /**
  * The targets MAC address to send the packet to
  */
-byte mac[] = { 0xFR, 0xBB, 0x34, 0xE5, 0x29, 0xFC };
+byte mac[] = { 0xFE, 0xBB, 0x34, 0xE5, 0x29, 0xFC };
 
 
 boolean connectWifi(); //empty methods defined here, for declaration see lower.

@@ -6,9 +6,9 @@ Very small and simple library to use the ESP8266 for sending magic packets to an
 Use the library with the (only) function like this:
 
 ```c
-byte mac[] = { 0xFE, 0xBB, 0x34, 0xE5, 0x29, 0xFC };
+IPAddress computer_ip(255, 255, 255, 255); \\ DON'T change this, this will cause magic packet to be sent as BROADCAST
 
-IPAddress computer_ip(192, 168, 178, 26); 
+byte mac[] = { 0xFE, 0xBB, 0x34, 0xE5, 0x29, 0xFC }; \\ CHANGE this to the machine's mac address
 
 WakeOnLan::sendWOL(computer_ip, UDP, mac, sizeof mac);
 

@@ -9,9 +9,9 @@ boolean wifiConnected = false;
 
 WiFiUDP UDP;
 /**
- * The target IP address to send the magic packet to.
+ * The Magic Packet needs to be sent as BROADCAST in the LAN
  */
-IPAddress computer_ip(192, 168, 178, 26); 
+IPAddress computer_ip(255,255,255,255); 
 
 /**
  * The targets MAC address to send the packet to

@@ -1,0 +1,22 @@
+{
+  "name": "WakeOnLan-ESP8266",
+  "keywords": "ESP, ESP8266, WakeOnLan, WOL, IoT",
+  "description": "Allows an ESP8266 to send Wake On LAN packages using the onboard WiFI chip.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/koenieee/WakeOnLan-ESP8266.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Koen",
+      "email": "koen-github@github.com",
+      "url": "https://github.com/koenieee",
+      "maintainer": true
+    }
+  ],
+  "version": "1.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}

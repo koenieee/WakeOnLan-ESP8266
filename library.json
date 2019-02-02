@@ -17,7 +17,6 @@
     }
   ],
   "version": "1.0",
-  "downloadUrl": "https://github.com/koenieee/WakeOnLan-ESP8266/archive/master.zip",
   "frameworks": "arduino",
   "platforms": "*"
 }

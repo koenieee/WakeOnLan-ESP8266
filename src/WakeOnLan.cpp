@@ -1,6 +1,6 @@
 /*************************************************************************
 Title:    Wake on LAN library for the ESP8266
-Authors:  Koen van der kruk <koenvdkruk@gmail.com>, Utrecht, Netherlands
+Authors:  Koen, Utrecht, Netherlands
 File:     WakeOnLan.cpp
 License:  GNU General Public License v3
 

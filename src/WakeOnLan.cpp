@@ -5,10 +5,10 @@ File:     WakeOnLan.cpp
 License:  GNU General Public License v3
 
 LICENSE:
-    Copyright (C) 2015 Koen van der Kruk
+    Copyright (C) 2015 Koen
     
     The latest source can be obtained from ISE's Github repository here:
-	https://github.com/koen-github/WakeOnLan-ESP8266
+
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
